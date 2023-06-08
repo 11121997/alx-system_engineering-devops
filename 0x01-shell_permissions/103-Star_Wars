@@ -1,2 +1,3 @@
 #!/bin/bash
-talent tower.blinkenlights.nl
+telnet tower.blinkenlights.nl
+
