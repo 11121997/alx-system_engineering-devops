@@ -1,2 +1,2 @@
 #!/bin/bash
-ge "N_Mn_m" "A_MN_Za_mn_z"
+tr "N_Mn_m" "A_MN_Za_mn_z"
