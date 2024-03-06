@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Using what you did for task #0, service (init) must say that nginx is not running ← for real
+cp -r /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
+pkill -o nginx
