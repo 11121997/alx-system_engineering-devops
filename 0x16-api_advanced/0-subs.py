@@ -3,7 +3,8 @@
 
 import requests
 
-def number_of_subscribers (subreddit):
+
+def number_of_subscribers(subreddit):
     """returns the number of subscribers"""
     url = "https://www.reddit.com/r/{}.json".format(subreddit)
     headers = {'User-Agent': 'reconnect/1.0 (by nawal_khaled)'}
