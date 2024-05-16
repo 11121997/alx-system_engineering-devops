@@ -2,6 +2,6 @@
 #fix our stack so that we get to 0
 
 exec { 'fix--for-nginx':
-  command => '/usr/bin/env sed -i s/15/2000/ /etc/nginx/nginx.conf; sudo service nginx restart',
-  path    => '/usr/local/bin/:/bin/'
+  command => '/usr/bin/env sed -i s/15/2000/ /etc/default/nginx',
 }
+exec { '/usr/bin/env service nginx restart': }
